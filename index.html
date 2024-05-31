@@ -41,10 +41,10 @@
               </nav>
         </header>
         <main>
-            <table class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="table">
+                        <table class="table">
                             <thead>
                                 <tr class="border-bottom">
                                     <th>Name</th>
@@ -54,27 +54,27 @@
                                 </tr>
                             </thead>
                             <tbody id="listingsTable"></tbody>
-                        </div>
+                          </table>
+                        <nav aria-label="Page navigation example">
+                          <ul class="pagination">
+                            <li class="page-item">
+                              <a class="page-link" href="#" id="previous-page" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                              </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#" id="current-page"></a></li>
+                            <li class="page-item">
+                              <a class="page-link" href="#" id="next-page" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </nav>
                     </div>
                 </div>
-            </table>
-            <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link" href="#" id="previous-page" aria-label="Previous">
-                      <span aria-hidden="true">&laquo;</span>
-                    </a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#" id="current-page"></a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" id="next-page" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+              </div>
               <div class="modal fade" id="detailsModal" tabindex="-1" id="exampleModal">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title"></h5>

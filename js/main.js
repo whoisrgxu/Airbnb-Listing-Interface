@@ -8,6 +8,8 @@
 * 
 *  Name: Rong Gang Xu   Student ID: 129160230   Date: May 28th, 2024
 *
+*  Github Repository: https://github.com/senecargxu/Web422-AS2
+*  Published URL: https://web422-as2-evym.onrender.com
 ********************************************************************************/
 
 let page = 1;
@@ -65,9 +67,9 @@ function createRowElements(data){
             <td class="align-top">${listing.name}</td>
             <td class="align-top">${listing.room_type}</td>
             <td class="align-top">${listing.address.street}</td>
-            <td class="align-top">${listing.summary}<br>
+            <td class="align-top">${listing.summary}<br><br>
             <strong>Accommodates:</strong> ${listing.accommodates}<br>
-            <strong>Rating:</strong> ${listing.review_scores.review_scores_rating} (${listing.number_of_reviews} Reviews)<br><br>
+            <strong>Rating:</strong> ${listing.review_scores.review_scores_rating} (${listing.number_of_reviews} Reviews)<br>
             </td>
         </tr>`
 
