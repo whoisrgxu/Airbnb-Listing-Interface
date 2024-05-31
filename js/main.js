@@ -56,7 +56,6 @@ function loadListingsData(){
             tbody.appendChild(rowData);
         }
     });
-    
 }
 
 function createRowElements(data){
