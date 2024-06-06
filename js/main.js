@@ -1,17 +1,3 @@
-/********************************************************************************
-*  WEB422 – Assignment 2
-* 
-*  I declare that this assignment is my own work in accordance with Seneca's
-*  Academic Integrity Policy:
-* 
-*  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
-* 
-*  Name: Rong Gang Xu   Student ID: 129160230   Date: May 28th, 2024
-*
-*  Github Repository: https://github.com/senecargxu/Web422-AS2
-*  Published URL: https://web422-as2-evym.onrender.com
-********************************************************************************/
-
 let page = 1;
 const perPage = 10;
 let searchName = null;
