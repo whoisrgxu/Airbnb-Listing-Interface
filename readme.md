@@ -61,5 +61,5 @@ Contributions are welcome! Please follow these steps:
     ```
 5. Create a pull request.
 ## Contact
-Roxu1927@outlook.com Project Link: https://github.com/whoisrgxu/Airbnb-Listing-Interface
+Roxu1927@outlook.com Project Link: https://github.com/whoisrgxu/Airbnb-Listing-Interface  
 Deployed as: https://web422-as2-evym.onrender.com
