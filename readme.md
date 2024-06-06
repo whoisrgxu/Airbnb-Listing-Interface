@@ -10,7 +10,6 @@ This project is a client-side application that interacts with a "Listings" API t
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Searchable table of Airbnb listings with columns: Name, Type, Location, and Summary.
